@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --clr-dark-purple: #371e30;
+  --clr-plum: #a03e99;
+  --clr-mauvelous: #f59ca9;
+  --clr-light-coral: #f6828c;
+  --clr-razzle: #df57bc;
+  --clr-white: #fff;
+}
+
+body {
+  margin: 0 auto;
+  padding: 8%;
+  max-width: 800px;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--clr-dark-purple);
+}
+
+li {
+  list-style-type: none;
+}

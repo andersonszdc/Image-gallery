@@ -1,1 +1,25 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  position: relative;
+}
 
+.gallery__item,
+.image-container {
+  aspect-ratio: 1;
+}
+
+.image-container {
+  border-radius: 3rem;
+  font-size: 3rem;
+
+  cursor: pointer;
+
+  background-color: var(--clr-white);
+  color: var(--clr-dark-purple);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
