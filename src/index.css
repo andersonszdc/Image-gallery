@@ -18,7 +18,6 @@ body {
   padding: 8%;
   max-width: 800px;
   font-family: "Roboto", sans-serif;
-  background-color: var(--clr-dark-purple);
 }
 
 li {

@@ -37,7 +37,7 @@ function App() {
         />
       ) : (
         <motion.div
-          animate={{ backgroundColor: "#000" }}
+          animate={{ backgroundColor: "#371e30" }}
           className="overlay"
           transition={{ bounce: false, duration: 0.2 }}
         />
