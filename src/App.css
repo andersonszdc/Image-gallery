@@ -11,6 +11,8 @@
 }
 
 .image-container {
+  position: absolute;
+  width: calc(50% - 8px);
   border-radius: 3rem;
   font-size: 3rem;
 
